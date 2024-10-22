@@ -21,7 +21,7 @@ def process_and_save_features():
         for file in files:
             if file.endswith('.wav'):
                 file_path = os.path.join(root, file)
-                # Here you keep the base name without extension for .npy file
+                # Keep the audio file base name without extension for .npy file
                 file_name = os.path.splitext(file)[0]  
 
                 try:
