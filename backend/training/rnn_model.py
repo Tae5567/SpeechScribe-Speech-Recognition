@@ -1,5 +1,5 @@
-import torch
-import torch.nn as nn
+#import torch
+#import torch.nn as nn
 
 class SpeechRecognitionRNN(nn.Module):
     def __init__(self, input_size, hidden_size, vocab_size, num_layers=3, dropout=0.3):
